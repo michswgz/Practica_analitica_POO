@@ -20,6 +20,11 @@ while True:
         lado=float(input("Ingrese un lado: "))
         cd = Cuadrado(lado)
         print("El area del cuadrado es: ", cd.area () )
+    elif opcion == "2":
+        base=float(input("Ingrese una base: "))
+        altura=float(input("Ingrese una altura: "))
+        tr = Triangulo(base,altura)
+        print("El area del triangulo es: ", tr.area())
     
 
     
