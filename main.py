@@ -1,5 +1,5 @@
 from FigurasGeometricas import FigurasGeometricas
-From Triangulo import Triangulo
+#From Triangulo import Triangulo
 
 nombre =input("¿Que figura geometrica desea usar?")
 print("La figura seleccionada es:", nombre)
@@ -8,4 +8,4 @@ print("La figura seleccionada es:", nombre)
 fg= FigurasGeometricas(nombre)
 fg.area()
 
-tr=Triangulo(10,20)
+#tr=Triangulo(10,20)
