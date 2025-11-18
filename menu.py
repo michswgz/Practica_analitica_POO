@@ -29,6 +29,11 @@ while True:
         radio=float(input("Ingrese un radio: "))
         cr = Circulo(radio)
         print("El area del circulo es: ", cr.area_circulo())
+    elif opcion == "4":
+        largo=float(input("Ingrese un largo: "))
+        ancho=float(input("Ingrese un ancho: "))
+        rc = Rectangulo(largo, ancho)
+        print("El area del rectangulo es: ", rc.area_rectangulo())
     
 
     
