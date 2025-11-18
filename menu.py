@@ -25,6 +25,10 @@ while True:
         altura=float(input("Ingrese una altura: "))
         tr = Triangulo(base,altura)
         print("El area del triangulo es: ", tr.area())
+    elif opcion == "3":
+        radio=float(input("Ingrese un radio: "))
+        cr = Circulo(radio)
+        print("El area del circulo es: ", cr.area_circulo())
     
 
     
