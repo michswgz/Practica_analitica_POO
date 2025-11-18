@@ -34,7 +34,9 @@ while True:
         ancho=float(input("Ingrese un ancho: "))
         rc = Rectangulo(largo, ancho)
         print("El area del rectangulo es: ", rc.area_rectangulo())
-    
+    elif opcion == "5":
+        print("Saliendo del programa...")
+        break   
 
     
 
